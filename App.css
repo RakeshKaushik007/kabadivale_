@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.App {
+  text-align: center;
+}
+
+.font-mont{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* =================== Display Properties ================== */
+
+.flex{
+  display: flex;
+}
+
+.flex-a-cen{
+  display: flex;
+  align-items: center;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.flex-a-cen-j-cen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-d-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-d-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-a-cen-j-spbet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-a-cen-j-speven{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-a-start{
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-a-end{
+  display: flex;
+  align-items: flex-end;
+}
+
+.text-align-left{
+  text-align: left;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.text-align-right{
+  text-align: right;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.float-right{
+  float: right;
+}
+/* ==================== Font Weight =================== */
+
+.medium-bold{
+  font-weight: 500;
+}
+
+.semi-bold{
+  font-weight: 600;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.extra-bold{
+  font-weight: 900;
+}
+
+/* ==================== Font Size ===================== */
+
+.font-12{
+  font-size: .75rem;
+}
+
+.font-14{
+  font-size: .875rem;
+}
+
+.font-16{
+  font-size: 1rem;
+}
+
+.font-18{
+  font-size: 1.125rem;
+}
+
+.font-20{
+  font-size: 1.25rem;
+}
+
+.font-24{
+  font-size: 1.5rem;
+}
+
+.font-26{
+  font-size: 1.625rem;
+}
+
+.font-30{
+  font-size: 1.875rem;
+}
+
+.font-32{
+  font-size: 2rem;
+}
+
+.font-36{
+  font-size: 2.25rem;
+}
+
+.font-40{
+  font-size: 2.5rem;
+}
+
+.font-45{
+  font-size: 2.8125rem;
+}
+
+.font-55{
+  font-size: 3.4375rem;
+}
+
+.font-128{
+  font-size: 8rem;
+}
+
+
+/* ============================ font color schemes ================ */
+
+.color-8CDC4C{
+  color: #8CDC4C;
+}
+
+.color-302B2B{
+  color: #302B2B
+}
+
+.color-82CD47{
+  color: #82CD47;
+}
+
+.color-white{
+  color: white;
+}
+
+.color-grey{
+  color: rgba(48, 43, 43, 0.71);
+}
+
+.color-green{
+  color: #82CD47;
+}
+
+.color-dark-grey{
+  color: #302B2B
+}
+
+.color-black{
+  color: #000000;
+}
+
+.color-register{
+  background: linear-gradient(180deg, #28A284 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.color-login{
+  color: #17C098;
+}
+
+/* ================== */
+
+.space-v-8{
+  height: .5rem;
+  width: 100%;
+}
+
+.space-v-13{
+  height: 0.8125rem;
+  width: 100%;
+}
+
+.space-v-23{
+  height: 1.4375rem;
+  width: 100%;
+}
+
+.space-v-40{
+  height: 2.5rem;
+  width: 100%;
+}
+
+.space-v-45{
+  height: 2.8125rem;
+  width: 100%;
+}
+
+.space-v-65{
+  height: 4.0625rem;
+  width: 100%;
+}
+
+.space-v-75{
+  height: 4.6975rem;
+  width: 100%;
+}
+
+.gap-1rem{
+  gap: 1rem;
+}
+
+.gap-2rem{
+  gap: 2rem;
+}
